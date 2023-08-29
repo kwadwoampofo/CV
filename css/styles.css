@@ -1,0 +1,138 @@
+/* STYLES SECTION */
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+h1{
+  color: #159E;
+  font-size: 3.525rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #1597E5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #159D;
+}
+hr{
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+}
+p{
+    line-height: 2;
+}
+a{
+  color:#0628;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#113C;
+}
+
+
+/* CONTAINER SECTION */
+.top-container{
+  background-color: #DFF6FF;
+  position:relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+    background-color: #DFF6FF;
+    padding: 50px 0 20px;
+}
+
+
+/* IMAGE SECTION */
+
+ .Mountain{
+   width: 550px;
+   height: auto;
+}
+.image-a{
+  float: left;
+margin-right: 30px;
+  height: 150px;
+    border-radius: 10%
+}
+.image-b{
+    height: 150px;
+    float: right;
+  margin-left: 20px;
+    border-radius: 10%
+}
+.circular{
+ border-radius: 95%;
+ width: 220px;
+ height: 220px;
+}
+
+   .top-clouds{
+     position: absolute;
+     right: 300px;
+     top: 40px;
+
+   }
+   .bottom-clouds{
+     position: absolute;
+     left: 250px;
+     bottom:300px;
+   }
+
+
+/* TESTIMONIALS SECTION */
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+/* BUTTON SECTION */
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+ .btn {
+  background: #349;
+  background-image: -webkit-linear-gradient(top, #349, #2980b9);
+  background-image: -moz-linear-gradient(top, #349, #2980b9);
+  background-image: -ms-linear-gradient(top, #349, #2980b9);
+  background-image: -o-linear-gradient(top, #349, #2980b9);
+  background-image: linear-gradient(to bottom, #349, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb;
+  background-image: -webkit-linear-gradient(top, #3cb, #349);
+  background-image: -moz-linear-gradient(top, #3cb, #349);
+  background-image: -ms-linear-gradient(top, #3cb, #349);
+  background-image: -o-linear-gradient(top, #3cb, #349);
+  background-image: linear-gradient(to bottom, #3cb, #349);
+  text-decoration: none;
+}
